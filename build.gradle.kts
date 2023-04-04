@@ -1,3 +1,5 @@
+import java.io.FileOutputStream
+
 plugins {
     java
     id("com.github.weave-mc.weave") version "8b70bcc707"
@@ -21,4 +23,8 @@ dependencies {
 
 tasks.compileJava {
     options.release.set(11)
+}
+
+tasks.jar {
+    destinationDirectory.set(File("${System.getProperty("user.home")}/.lunarclient/mods"))
 }

@@ -1,11 +1,8 @@
 {
   "mixinConfigs": [
-    "examplemod.mixins.json"
+    "modmenu.mixins.json"
   ],
   "entrypoints": [
-    "com.example.mod.ExampleMod"
-  ],
-  "hooks": [
-    "com.example.mod.hook.MinecraftHook"
+    "io.github.betterclient.modmenu.ModMenu"
   ]
 }

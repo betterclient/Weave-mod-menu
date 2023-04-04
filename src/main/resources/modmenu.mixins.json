@@ -1,0 +1,8 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "io.github.betterclient.modmenu.mixins",
+  "verbose": true,
+  "mixins": [
+    "MixinGuiIngameMenu"
+  ]
+}
