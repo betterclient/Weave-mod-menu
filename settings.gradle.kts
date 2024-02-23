@@ -1,5 +1,6 @@
 rootProject.name = "WeavedModMenu"
 
+
 pluginManagement {
     repositories {
         gradlePluginPortal()

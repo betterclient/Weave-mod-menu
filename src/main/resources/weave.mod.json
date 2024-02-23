@@ -4,5 +4,6 @@
   ],
   "entrypoints": [
     "io.github.betterclient.modmenu.ModMenu"
-  ]
+  ],
+  "name": "Weaved Mod Menu"
 }

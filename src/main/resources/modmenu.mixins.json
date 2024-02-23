@@ -3,6 +3,7 @@
   "package": "io.github.betterclient.modmenu.mixins",
   "verbose": true,
   "mixins": [
-    "MixinGuiIngameMenu"
+    "MixinGuiIngameMenu",
+    "MixinGuiScreen"
   ]
 }

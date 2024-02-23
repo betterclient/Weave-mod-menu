@@ -1,8 +1,6 @@
-import java.io.FileOutputStream
-
 plugins {
     java
-    id("com.github.weave-mc.weave") version "8b70bcc707"
+    id("com.github.weave-mc.weave-gradle") version "649dba7468"
 }
 
 group = "com.example"
@@ -16,7 +14,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.github.weave-mc:weave-loader:6a9e6a3245")
+    compileOnly("com.github.weave-mc:weave-loader:v0.2.4")
 
     compileOnly("org.spongepowered:mixin:0.8.5")
 }
@@ -26,5 +24,5 @@ tasks.compileJava {
 }
 
 tasks.jar {
-    destinationDirectory.set(File("${System.getProperty("user.home")}/.lunarclient/mods"))
+    destinationDirectory.set(File("${System.getProperty("user.home")}/.weave/mods"))
 }
